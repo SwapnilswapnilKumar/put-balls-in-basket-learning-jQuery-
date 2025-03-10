@@ -1,0 +1,33 @@
+button{
+    width:200px;
+    height:50px;
+    border:1px solid black;
+    display:block;
+    margin:auto;
+    margin-top:50px;
+    font-size:1.3rem;
+    cursor:pointer;
+    font-family:monospace
+
+}
+
+
+button:hover{
+    box-shadow: 0px 0px 30px 2px grey;
+}
+
+#box{
+    border: 5px double lightgrey;
+    background-color: azure;
+    border-top:none;
+    margin-top:50px;
+    min-height:100px;
+    display:flex;
+    flex-wrap:wrap-reverse;
+}
+
+.ball{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
